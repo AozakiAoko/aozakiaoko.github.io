@@ -55,6 +55,9 @@ $("#YoloRoll").click(function() {
 });
 
 $("#TenRoll").click(function() {
+  $("#SSR").hide();
+  $("#SR").hide();
+  $("#Roll").show();
   if (Quartz >= 40) {
     Quartz -= 40;
     QuartzRolled += 40;
