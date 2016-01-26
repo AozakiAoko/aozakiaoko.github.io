@@ -1,0 +1,84 @@
+* {
+  background: url(http://fgo-story.byethost18.com/main/assets/images/bg/10500.png) no-repeat center fixed;
+  background-size: cover;
+  font-size: 28px;
+}
+
+#Stats{
+  color: #fff;
+  font-size: 36px;
+  text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  font-weight: bold;  
+}
+
+.Roll{
+  position: absolute;
+  left: 20%;
+  top: 15%;
+  width: 60%;
+  height: 60%;
+  overflow: auto;
+  text-align: center;
+}
+
+.Roll img{
+  padding: 10px;
+}
+
+#Buttons{
+  position: absolute;
+  left: 15%;
+  width: 70%;
+  top: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#QuartzDiv{
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  text-align: justify;
+}
+
+#QuartzRolledDiv{
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  text-align: justify;
+}
+
+#YenSpentDiv{
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  text-align: justify;
+}
+
+#SSRservantsDiv{
+  position: absolute;
+  top: 5%;
+  left: 85%;
+  text-align: justify;
+}
+
+#SRservantsDiv{
+  position: absolute;
+  top: 15%;
+  left: 85%;
+  text-align: justify;
+}
+
+#SSRceDiv{
+  position: absolute;
+  top: 25%;
+  left: 85%;
+  text-align: justify;
+}
+
+#SRceDiv{
+  position: absolute;
+  top: 35%;
+  left: 85%;
+  text-align: justify;
+}
