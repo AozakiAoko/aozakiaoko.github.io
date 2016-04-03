@@ -1,0 +1,15 @@
+* {
+  background-color: black;
+  color: white;
+}
+
+td:first-child {
+    width: 300px;
+    text-align: center;
+}
+
+td div{
+  height: 150px;
+  width:  138px;
+  display: inline-block;
+}

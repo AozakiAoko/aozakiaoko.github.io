@@ -1,13 +1,68 @@
-* {
-  background-color: black;
+/*=====================================================================================
+										SHIELDER
+=====================================================================================*/
+.mashu{
+  background: url(http://aozakiaoko.github.io/fgo/img/svt/shielder/mashu.png)
 }
 
-.card{
-  height: 150px;
-  width:  138px;
-  display: inline;
+/*=====================================================================================
+										ARCHER
+=====================================================================================*/
+.arash{
+  background: url(http://aozakiaoko.github.io/fgo/img/svt/archer/arash.png)
 }
 
-.Mashu{
-  background: url(http://aozakiaoko.github.io/fgo/img/svt/shielder/mashu.png);
+
+.arjuna{
+  background: url(http://aozakiaoko.github.io/fgo/img/svt/archer/arjuna.png)
 }
+
+.atalanta{
+  background: url(http://aozakiaoko.github.io/fgo/img/svt/archer/atalanta.png)
+}
+
+.billy{
+  background: url(http://aozakiaoko.github.io/fgo/img/svt/archer/billy.png)
+}
+
+.david{
+  background: url(http://aozakiaoko.github.io/fgo/img/svt/archer/david.png)
+}
+
+.gil{
+  background: url(http://aozakiaoko.github.io/fgo/img/svt/archer/gil.png)
+}
+
+.euryale{
+  background: url(http://aozakiaoko.github.io/fgo/img/svt/archer/euryale.png)
+}
+
+.kogil{
+  background: url(http://aozakiaoko.github.io/fgo/img/svt/archer/kogil.png)
+}
+
+.nobu{
+  background: url(http://aozakiaoko.github.io/fgo/img/svt/archer/nobu.png)
+}
+
+.orion{
+  background: url(http://aozakiaoko.github.io/fgo/img/svt/archer/orion.png)
+}
+
+.robin{
+  background: url(http://aozakiaoko.github.io/fgo/img/svt/archer/robin.png)
+}
+
+
+.tesla{
+  background: url(http://aozakiaoko.github.io/fgo/img/svt/archer/tesla.png)
+}
+
+
+
+
+
+
+/*=====================================================================================
+										ASSASSIN
+=====================================================================================*/
