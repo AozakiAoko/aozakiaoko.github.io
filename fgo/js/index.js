@@ -97,6 +97,10 @@ function Roll(value) {
     var card = Math.floor(Math.random() * cardCount[cardType[0]].length);
     cardCount[cardType[0]].eq(card).clone().appendTo("#Roll");
     Yorokobe(cardType[0], cardCount[cardType[0]].eq(card).index());
+    if (cardType[0] > 3)
+      cardCount[cardType[0]].eq(card).clone().appendTo("#SSR");
+    if (cardType[0] > 1 && cardType[0] < 4)
+      cardCount[cardType[0]].eq(card).clone().appendTo("#SR");
     return;
   }
   for (var i = 0; i < 10; i++) {
