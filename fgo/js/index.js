@@ -43,8 +43,7 @@ $("#YoloRoll").click(function() {
     QuartzRolled += 4;
     $("#Quartz").empty().append(Quartz);
     $("#QuartzRolled").empty().append(QuartzRolled);
-    if (Rolled >= 10)
-      $("#Roll").empty();
+    $("#Roll").empty();
     Rolled += 1;
     Roll(4);
     $("#SSRservant").empty().append(Stat[5]);
