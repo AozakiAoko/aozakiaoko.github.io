@@ -1,5 +1,7 @@
 .content {
-  background: url(http://aozakiaoko.github.io/fgo/img/bg.jpg) no-repeat fixed;
+  position: absolute;
+  top: 100px;
+  background: url(http://aozakiaoko.github.io/fgo/img/bg.jpg) no-repeat center fixed;
   font-size: 28px;
 }
 
