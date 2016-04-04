@@ -15,6 +15,6 @@ td div{
 }
 
 .header{
-	top: 100px;
-	position: absolute; /* Абсолютное позиционирование */
+	top: 50px;
+	position: relative; /* Абсолютное позиционирование */
 }
