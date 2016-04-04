@@ -9,9 +9,9 @@ td:first-child {
 }
 
 td div{
-  height: 150px;
-  width:  138px;
-  display: inline-block;
+	height: 150px;
+	width:  138px;
+	display: inline-block;
 }
 
 .header{
