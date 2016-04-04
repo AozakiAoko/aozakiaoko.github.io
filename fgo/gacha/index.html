@@ -1,183 +1,185 @@
 <!DOCTYPE html>
 <html >
-  <head>
-    <meta charset="UTF-8">
-    <title>Fate\Grand Order Gacha Sim</title>
+    <head>
+        <meta charset="UTF-8">
+        <title>Fate\Grand Order Gacha Sim</title>
         <link rel="stylesheet" href="http://aozakiaoko.github.io/fgo/css/style.css">
         <link rel="stylesheet" href="http://aozakiaoko.github.io/fgo/css/nav.css">
         <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/sunny/jquery-ui.css">
-  </head>
-  <body>
+    </head>
+    <body>
 
+    <audio id="Yorokobe" src="http://www.myinstants.com/media/sounds/yorokobe-shounen.mp3" ></audio>
+    <button onClick="play()" hidden disabled>play</button>
 
-<audio id="Yorokobe" src="http://www.myinstants.com/media/sounds/yorokobe-shounen.mp3" ></audio>
-<button onClick="play()" hidden disabled>play</button>
+    <div class="nav">
+        <ul>
+            <li><a target="_blank" href="http://aozakiaoko.github.io/fgo/gacha/">Gacha sim</a></li>
+            <li><a target="_blank" href="http://aozakiaoko.github.io/fgo/reference/">Reference Sheet</a></li>
+            <li><a target="_blank" href="https://docs.google.com/spreadsheets/d/1yYtszqoydsIpUZ_O7WwOkFJDMirdasQyJkz8zPGxdDk">NP Reference</a></li>
+        </ul>
+    </div>
 
-<div class="nav">
-    <ul>
-        <li><a target="_blank" href="http://aozakiaoko.github.io/fgo/gacha/">Gacha sim</a></li>
-        <li><a target="_blank" href="http://aozakiaoko.github.io/fgo/reference/">Reference Sheet</a></li>
-        <li><a target="_blank" href="https://docs.google.com/spreadsheets/d/1yYtszqoydsIpUZ_O7WwOkFJDMirdasQyJkz8zPGxdDk">NP Reference</a></li>
-    </ul>
-</div>
+    <div class="content">
 
-<div id="Buttons">
-  <input type="submit" value="4" id="YoloRoll" class="menubutton">
-  <input type="submit" value="40" id="TenRoll" class="menubutton">
-  <input type="submit" value="+140SQ" id="GetQuartz" class="menubutton">
-  <input type="submit" value="SSR Rolled" id="SSRrolled" class="menubutton">
-  <input type="submit" value="SR Rolled" id="SRrolled" class="menubutton">
-</div>
+        <div id="Buttons">
+          <input type="submit" value="4" id="YoloRoll" class="menubutton">
+          <input type="submit" value="40" id="TenRoll" class="menubutton">
+          <input type="submit" value="+140SQ" id="GetQuartz" class="menubutton">
+          <input type="submit" value="SSR Rolled" id="SSRrolled" class="menubutton">
+          <input type="submit" value="SR Rolled" id="SRrolled" class="menubutton">
+        </div>
 
-<div id=Stats>
-  
-<div id="QuartzDiv">
-  SQ:&nbsp<span id="Quartz">140</span>
-</div>
+        <div id=Stats>
+          
+        <div id="QuartzDiv">
+          SQ:&nbsp<span id="Quartz">140</span>
+        </div>
 
-<div id="QuartzRolledDiv">
-  SQ Rolled:&nbsp<span id="QuartzRolled">0</span>
-</div>
+        <div id="QuartzRolledDiv">
+          SQ Rolled:&nbsp<span id="QuartzRolled">0</span>
+        </div>
 
-<div id="YenSpentDiv">
-  SQ worth:&nbsp<span id="YenSpent">0</span>
-</div>
+        <div id="YenSpentDiv">
+          SQ worth:&nbsp<span id="YenSpent">0</span>
+        </div>
 
-<div id="SSRservantsDiv">
- SSR Servants:&nbsp<span id="SSRservant">0</span>
-</div>
+        <div id="SSRservantsDiv">
+         SSR Servants:&nbsp<span id="SSRservant">0</span>
+        </div>
 
-<div id="SRservantsDiv">
-SR Servants:&nbsp<span id="SRservant">0</span>
-</div>
+        <div id="SRservantsDiv">
+        SR Servants:&nbsp<span id="SRservant">0</span>
+        </div>
 
-<div id="SSRceDiv">
-SSR CEs:&nbsp<span id="SSRce">0</span>
-</div>
+        <div id="SSRceDiv">
+        SSR CEs:&nbsp<span id="SSRce">0</span>
+        </div>
 
-<div id="SRceDiv">
- SR CEs:&nbsp<span id="SRce">0</span>
-</div>
-  </div>
-<div id="Roll" class="Roll">
-</div>
-  
-<div id="SSR" hidden class="Roll"></div>
-<div id="SR" hidden class="Roll"></div>
+        <div id="SRceDiv">
+         SR CEs:&nbsp<span id="SRce">0</span>
+        </div>
+          </div>
+        <div id="Roll" class="Roll">
+        </div>
+          
+        <div id="SSR" hidden class="Roll"></div>
+        <div id="SR" hidden class="Roll"></div>
 
-<div id="CardRepository" hidden>
-  <div id="5Servant">
-    <img src="http://i.imgur.com/GMWXpOb.png"></img>
-    <img src="http://i.imgur.com/9pRcGlS.png"></img>
-    <img src="http://i.imgur.com/UkiC0lw.png"></img>
-    <img src="http://i.imgur.com/FJbQj1l.png"></img>
-    <img src="http://i.imgur.com/MFiRy5d.png"></img>
-    <img src="http://i.imgur.com/h79FZYH.png"></img>
-    <img src="http://i.imgur.com/QLw6AUp.png"></img>
-    <img src="http://i.imgur.com/MOJVMwY.png"></img>
-    <img src="http://i.imgur.com/Vix5dea.png"></img>
-    <img src="http://i.imgur.com/7vLqW4O.png"></img>
-    <img src="http://i.imgur.com/FR6RLSp.png"></img>
-  </div>
-  <div id="4Servant">
-    <img src="http://i.imgur.com/VSowRz8.png"></img>
-    <img src="http://i.imgur.com/pvf4yCi.png"></img>
-    <img src="http://i.imgur.com/2kGoV60.png"></img>
-    <img src="http://i.imgur.com/SfnGSLB.png"></img>
-    <img src="http://i.imgur.com/Ca7rRG8.png"></img>
-    <img src="http://i.imgur.com/AjflZLj.png"></img>
-    <img src="http://i.imgur.com/DqzofhV.png"></img>
-    <img src="http://i.imgur.com/GLCkK6M.png"></img>
-    <img src="http://i.imgur.com/zlfDQx3.png"></img>
-    <img src="http://i.imgur.com/yUCX7Wg.png"></img>
-    <img src="http://i.imgur.com/rZQiCBY.png"></img>
-    <img src="http://i.imgur.com/N3nYPdr.png"></img>
-    <img src="http://i.imgur.com/Rs5Ypl9.png"></img>
-    <img src="http://i.imgur.com/Iy9qqGy.png"></img>
-    <img src="http://i.imgur.com/2DTBNqI.png"></img>
-    <img src="http://i.imgur.com/fQFznJs.png"></img>
-    <img src="http://i.imgur.com/TNKxNgB.png"></img>
-    <img src="http://i.imgur.com/5ScVgdA.png"></img>
-    <img src="http://i.imgur.com/oGmKf7Z.png"></img>
-  </div>
-  <div id="3Servant">
-    <img src="http://i.imgur.com/jXc4tP7.png"></img>
-    <img src="http://i.imgur.com/fCKOf70.png"></img>
-    <img src="http://i.imgur.com/po6Hgrj.png"></img>
-    <img src="http://i.imgur.com/SRxsAPt.png"></img>
-    <img src="http://i.imgur.com/IPDbYND.png"></img>
-    <img src="http://i.imgur.com/sbnnmVl.png"></img>
-    <img src="http://i.imgur.com/hn1HvI5.png"></img>
-    <img src="http://i.imgur.com/qvwlPDh.png"></img>
-    <img src="http://i.imgur.com/x5jgnNs.png"></img>
-    <img src="http://i.imgur.com/zmXGMs4.png"></img>
-    <img src="http://i.imgur.com/HchHV3K.png"></img>
-    <img src="http://i.imgur.com/KXwCvoX.png"></img>
-    <img src="http://i.imgur.com/JiRNAjx.png"></img>
-    <img src="http://i.imgur.com/mLCQ65P.png"></img>
-    <img src="http://i.imgur.com/3KWWaMg.png"></img>
-    <img src="http://i.imgur.com/Rr0xDe4.png"></img>
-    <img src="http://i.imgur.com/cTywvUY.png"></img>
-    <img src="http://i.imgur.com/Bg4Jqmw.png"></img>
-    <img src="http://i.imgur.com/DOGJUW4.png"></img>
-    <img src="http://i.imgur.com/VhDH58i.png"></img>
-    <img src="http://i.imgur.com/fKKTsXL.png"></img>
-    <img src="http://i.imgur.com/gCnVP9T.png"></img>
-    <img src="http://i.imgur.com/3PxP7Cc.png"></img>
-    <img src="http://i.imgur.com/ictxmj5.png"></img>
-    <img src="http://i.imgur.com/CXlF4df.png"></img>
-  </div>
-  <div id="5CE">
-    <img src="http://i.imgur.com/NE8ROLb.png"></img>
-    <img src="http://i.imgur.com/241KW89.png"></img>
-    <img src="http://i.imgur.com/L83Bzms.png"></img>
-    <img src="http://i.imgur.com/sJ63fZf.png"></img>
-    <img src="http://i.imgur.com/TbR0Apg.png"></img>
-    <img src="http://i.imgur.com/uXaTIST.png"></img>
-    <img src="http://i.imgur.com/pQvUXJM.png"></img>
-    <img src="http://i.imgur.com/aaIT36q.png"></img>
-    <img src="http://i.imgur.com/EQqC4yL.png"></img>
-    <img src="http://i.imgur.com/AZRRzDg.png"></img>
-    <img src="http://i.imgur.com/p4nU7CV.png"></img>
-  </div>
-  <div id="4CE">
-    <img src="http://i.imgur.com/jVov6hL.png"></img>
-    <img src="http://i.imgur.com/PzmxgDC.png"></img>
-    <img src="http://i.imgur.com/7X4Dm09.png"></img>
-    <img src="http://i.imgur.com/FzX9EHG.png"></img>
-    <img src="http://i.imgur.com/BqP7ibf.png"></img>
-    <img src="http://i.imgur.com/qYHNBKH.png"></img>
-    <img src="http://i.imgur.com/4YNe7IR.png"></img>
-    <img src="http://i.imgur.com/DLiKRCv.png"></img>
-    <img src="http://i.imgur.com/23PWLeN.png"></img>
-    <img src="http://i.imgur.com/V9Aa7Xn.png"></img>
-    <img src="http://i.imgur.com/y4jGDYo.png"></img>
-    <img src="http://i.imgur.com/DoK735r.png"></img>
-    <img src="http://i.imgur.com/91Ce4QE.png"></img>
-    <img src="http://i.imgur.com/xPfRsrw.png"></img>
-    <img src="http://i.imgur.com/yMB1FON.png"></img>
-    <img src="http://i.imgur.com/HkTfWXH.png"></img>
-    <img src="http://i.imgur.com/sEYybtv.png"></img>
-  </div>
-  <div id="3CE">
-    <img src="http://i.imgur.com/8CYx5QY.png"></img>
-    <img src="http://i.imgur.com/ALUrRxb.png"></img>
-    <img src="http://i.imgur.com/fz94kUS.png"></img>
-    <img src="http://i.imgur.com/QhVnK8L.png"></img>
-    <img src="http://i.imgur.com/NfwYQ77.png"></img>
-    <img src="http://i.imgur.com/O5P9pEw.png"></img>
-    <img src="http://i.imgur.com/tAHJsgI.png"></img>
-    <img src="http://i.imgur.com/xy28CBJ.png"></img>
-    <img src="http://i.imgur.com/e1Hf6uG.png"></img>
-    <img src="http://i.imgur.com/hwt5LS0.png"></img>
-    <img src="http://i.imgur.com/hspvkNC.png"></img>
-    <img src="http://i.imgur.com/mTP95V2.png"></img>
-    <img src="http://i.imgur.com/9Vvj5dw.png"></img>
-    <img src="http://i.imgur.com/I5w04F4.png"></img>
-    <img src="http://i.imgur.com/hew3doI.png"></img>
-    <img src="http://i.imgur.com/28WGnaM.png"></img>
-  </div>
-</div>
+        <div id="CardRepository" hidden>
+          <div id="5Servant">
+            <img src="http://i.imgur.com/GMWXpOb.png"></img>
+            <img src="http://i.imgur.com/9pRcGlS.png"></img>
+            <img src="http://i.imgur.com/UkiC0lw.png"></img>
+            <img src="http://i.imgur.com/FJbQj1l.png"></img>
+            <img src="http://i.imgur.com/MFiRy5d.png"></img>
+            <img src="http://i.imgur.com/h79FZYH.png"></img>
+            <img src="http://i.imgur.com/QLw6AUp.png"></img>
+            <img src="http://i.imgur.com/MOJVMwY.png"></img>
+            <img src="http://i.imgur.com/Vix5dea.png"></img>
+            <img src="http://i.imgur.com/7vLqW4O.png"></img>
+            <img src="http://i.imgur.com/FR6RLSp.png"></img>
+          </div>
+          <div id="4Servant">
+            <img src="http://i.imgur.com/VSowRz8.png"></img>
+            <img src="http://i.imgur.com/pvf4yCi.png"></img>
+            <img src="http://i.imgur.com/2kGoV60.png"></img>
+            <img src="http://i.imgur.com/SfnGSLB.png"></img>
+            <img src="http://i.imgur.com/Ca7rRG8.png"></img>
+            <img src="http://i.imgur.com/AjflZLj.png"></img>
+            <img src="http://i.imgur.com/DqzofhV.png"></img>
+            <img src="http://i.imgur.com/GLCkK6M.png"></img>
+            <img src="http://i.imgur.com/zlfDQx3.png"></img>
+            <img src="http://i.imgur.com/yUCX7Wg.png"></img>
+            <img src="http://i.imgur.com/rZQiCBY.png"></img>
+            <img src="http://i.imgur.com/N3nYPdr.png"></img>
+            <img src="http://i.imgur.com/Rs5Ypl9.png"></img>
+            <img src="http://i.imgur.com/Iy9qqGy.png"></img>
+            <img src="http://i.imgur.com/2DTBNqI.png"></img>
+            <img src="http://i.imgur.com/fQFznJs.png"></img>
+            <img src="http://i.imgur.com/TNKxNgB.png"></img>
+            <img src="http://i.imgur.com/5ScVgdA.png"></img>
+            <img src="http://i.imgur.com/oGmKf7Z.png"></img>
+          </div>
+          <div id="3Servant">
+            <img src="http://i.imgur.com/jXc4tP7.png"></img>
+            <img src="http://i.imgur.com/fCKOf70.png"></img>
+            <img src="http://i.imgur.com/po6Hgrj.png"></img>
+            <img src="http://i.imgur.com/SRxsAPt.png"></img>
+            <img src="http://i.imgur.com/IPDbYND.png"></img>
+            <img src="http://i.imgur.com/sbnnmVl.png"></img>
+            <img src="http://i.imgur.com/hn1HvI5.png"></img>
+            <img src="http://i.imgur.com/qvwlPDh.png"></img>
+            <img src="http://i.imgur.com/x5jgnNs.png"></img>
+            <img src="http://i.imgur.com/zmXGMs4.png"></img>
+            <img src="http://i.imgur.com/HchHV3K.png"></img>
+            <img src="http://i.imgur.com/KXwCvoX.png"></img>
+            <img src="http://i.imgur.com/JiRNAjx.png"></img>
+            <img src="http://i.imgur.com/mLCQ65P.png"></img>
+            <img src="http://i.imgur.com/3KWWaMg.png"></img>
+            <img src="http://i.imgur.com/Rr0xDe4.png"></img>
+            <img src="http://i.imgur.com/cTywvUY.png"></img>
+            <img src="http://i.imgur.com/Bg4Jqmw.png"></img>
+            <img src="http://i.imgur.com/DOGJUW4.png"></img>
+            <img src="http://i.imgur.com/VhDH58i.png"></img>
+            <img src="http://i.imgur.com/fKKTsXL.png"></img>
+            <img src="http://i.imgur.com/gCnVP9T.png"></img>
+            <img src="http://i.imgur.com/3PxP7Cc.png"></img>
+            <img src="http://i.imgur.com/ictxmj5.png"></img>
+            <img src="http://i.imgur.com/CXlF4df.png"></img>
+          </div>
+          <div id="5CE">
+            <img src="http://i.imgur.com/NE8ROLb.png"></img>
+            <img src="http://i.imgur.com/241KW89.png"></img>
+            <img src="http://i.imgur.com/L83Bzms.png"></img>
+            <img src="http://i.imgur.com/sJ63fZf.png"></img>
+            <img src="http://i.imgur.com/TbR0Apg.png"></img>
+            <img src="http://i.imgur.com/uXaTIST.png"></img>
+            <img src="http://i.imgur.com/pQvUXJM.png"></img>
+            <img src="http://i.imgur.com/aaIT36q.png"></img>
+            <img src="http://i.imgur.com/EQqC4yL.png"></img>
+            <img src="http://i.imgur.com/AZRRzDg.png"></img>
+            <img src="http://i.imgur.com/p4nU7CV.png"></img>
+          </div>
+          <div id="4CE">
+            <img src="http://i.imgur.com/jVov6hL.png"></img>
+            <img src="http://i.imgur.com/PzmxgDC.png"></img>
+            <img src="http://i.imgur.com/7X4Dm09.png"></img>
+            <img src="http://i.imgur.com/FzX9EHG.png"></img>
+            <img src="http://i.imgur.com/BqP7ibf.png"></img>
+            <img src="http://i.imgur.com/qYHNBKH.png"></img>
+            <img src="http://i.imgur.com/4YNe7IR.png"></img>
+            <img src="http://i.imgur.com/DLiKRCv.png"></img>
+            <img src="http://i.imgur.com/23PWLeN.png"></img>
+            <img src="http://i.imgur.com/V9Aa7Xn.png"></img>
+            <img src="http://i.imgur.com/y4jGDYo.png"></img>
+            <img src="http://i.imgur.com/DoK735r.png"></img>
+            <img src="http://i.imgur.com/91Ce4QE.png"></img>
+            <img src="http://i.imgur.com/xPfRsrw.png"></img>
+            <img src="http://i.imgur.com/yMB1FON.png"></img>
+            <img src="http://i.imgur.com/HkTfWXH.png"></img>
+            <img src="http://i.imgur.com/sEYybtv.png"></img>
+          </div>
+          <div id="3CE">
+            <img src="http://i.imgur.com/8CYx5QY.png"></img>
+            <img src="http://i.imgur.com/ALUrRxb.png"></img>
+            <img src="http://i.imgur.com/fz94kUS.png"></img>
+            <img src="http://i.imgur.com/QhVnK8L.png"></img>
+            <img src="http://i.imgur.com/NfwYQ77.png"></img>
+            <img src="http://i.imgur.com/O5P9pEw.png"></img>
+            <img src="http://i.imgur.com/tAHJsgI.png"></img>
+            <img src="http://i.imgur.com/xy28CBJ.png"></img>
+            <img src="http://i.imgur.com/e1Hf6uG.png"></img>
+            <img src="http://i.imgur.com/hwt5LS0.png"></img>
+            <img src="http://i.imgur.com/hspvkNC.png"></img>
+            <img src="http://i.imgur.com/mTP95V2.png"></img>
+            <img src="http://i.imgur.com/9Vvj5dw.png"></img>
+            <img src="http://i.imgur.com/I5w04F4.png"></img>
+            <img src="http://i.imgur.com/hew3doI.png"></img>
+            <img src="http://i.imgur.com/28WGnaM.png"></img>
+          </div>
+        </div>
+    </div>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
     <script src="http://aozakiaoko.github.io/fgo/js/index.js"></script>
