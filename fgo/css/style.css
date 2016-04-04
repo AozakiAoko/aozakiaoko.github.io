@@ -25,6 +25,10 @@
   padding: 10px;
 }
 
+.menubutton{
+  width: 100px;
+}
+
 #Buttons{
   position: absolute;
   left: 15%;
