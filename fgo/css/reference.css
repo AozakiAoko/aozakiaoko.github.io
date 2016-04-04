@@ -13,8 +13,3 @@ td div{
 	width:  138px;
 	display: inline-block;
 }
-
-.header{
-	top: 50px;
-	position: relative; /* Абсолютное позиционирование */
-}
