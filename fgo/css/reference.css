@@ -25,3 +25,14 @@ td:nth-child(2){
     text-shadow: 3px 3px 8px #BF7F00, -3px -3px 8px #BF7F00;
     font-size: 32px;
 }
+
+table {
+    border-collapse: collapse; 
+}
+
+td {
+    padding: 10px 0;     /* 10px top & bottom padding, 0px left & right */
+    border-width: 1px 0; /*  1px top & bottom border,  0px left & right */
+    border-color: #000;
+    border-style: solid;
+}
