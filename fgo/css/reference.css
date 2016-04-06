@@ -13,3 +13,9 @@ td div{
 	width:  138px;
 	display: inline-block;
 }
+
+.title{
+	color: white;
+    text-shadow: 3px 3px 8px #BF7F00, -3px -3px 8px #BF7F00;
+    font-size: 20px;
+}
