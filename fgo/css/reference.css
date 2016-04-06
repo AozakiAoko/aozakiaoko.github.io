@@ -19,3 +19,9 @@ td div{
     text-shadow: 3px 3px 8px #BF7F00, -3px -3px 8px #BF7F00;
     font-size: 20px;
 }
+
+td:nth-child(2){
+	color: white;
+    text-shadow: 3px 3px 8px #BF7F00, -3px -3px 8px #BF7F00;
+    font-size: 32px;
+}
