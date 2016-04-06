@@ -16,9 +16,8 @@
 }
 
 .nav li {
-    float: left;
+    float: right;
     width: 15%;
-    text-align: right;
 }
 
 .nav li a {
