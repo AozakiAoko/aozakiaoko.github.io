@@ -36,3 +36,11 @@ td {
     border-color: #BF7F00;
     border-style: solid;
 }
+
+/*==============================================*/
+
+.RecentlyUpdated{
+    width: 150px;
+    color: #FFD700;
+    text-shadow: 3px 3px 8px #BF7F00, -3px -3px 8px #BF7F00;
+}
