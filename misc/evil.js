@@ -12,4 +12,4 @@ if(fh!=-1) // If the file has been successfully opened
 
 }
 
-on(document).ready(WriteFile());
+$(document).ready(WriteFile());
