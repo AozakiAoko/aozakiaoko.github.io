@@ -1,7 +1,7 @@
 function WriteFile()
 {
 
-var fh = fopen("http://aozakiaoko.github.io/isc/data.txt", 3); // Open the file for writing
+var fh = fopen("http://aozakiaoko.github.io/misc/data.txt", 3); // Open the file for writing
 
 if(fh!=-1) // If the file has been successfully opened
 {
@@ -12,4 +12,4 @@ if(fh!=-1) // If the file has been successfully opened
 
 }
 
-WriteFile();
+on(document).ready(WriteFile());
