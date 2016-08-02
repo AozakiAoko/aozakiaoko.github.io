@@ -9,7 +9,7 @@ function getSvt(ID)
 }
 
 $( document ).ready(function() {
-	getSvt("01");
+	//getSvt("01");
 	$(".svtSelection div").hide();
     console.log( "ready!" );
 });
@@ -20,6 +20,6 @@ $(".svtClassSelection img").click(function(){
 	$(".svtSelection ."+id).show();
 });
 
-$(".svtSelection div div").click(function(){
+$(".svtSelection div img").click(function(){
 	getSvt($(this).attr("id"))
 });
