@@ -16,8 +16,8 @@ $( document ).ready(function() {
 $(".svtClassSelection img").click(function(){
 	var id = $(this).attr("id");
 	$(".svtSelection div").hide();
-	$(".svtSelection #"+id).show();
-	alert(id);
+	$(".svtSelection ."+id).show();
+	//alert(id);
 });
 
 $(".svtSelection div div").click(function(){

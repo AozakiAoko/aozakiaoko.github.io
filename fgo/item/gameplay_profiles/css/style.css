@@ -18,6 +18,12 @@
   width: 200px;
 }
 
+.menu div div{
+  display: inline-block;
+  margin: 0 auto;
+  width: 200px;
+}
+
 .svt{
   margin: 0 auto;
   width: 800px;
