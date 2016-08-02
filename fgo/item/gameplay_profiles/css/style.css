@@ -32,15 +32,10 @@
 
 .skill-icon
 {
-  width: 20px;
-  height: 20px;
+  width: 55px;
+  height: 55px;
   text-align: center;
   vertical-align: middle;  
-}
-
-.DefenceUp
-{
-  background: url(http://aozakiaoko.github.io/fgo/img/skills/DefenceUp.png);
 }
 
 td{
