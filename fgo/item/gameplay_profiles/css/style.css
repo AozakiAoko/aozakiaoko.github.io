@@ -36,6 +36,10 @@ td{
   height: 1px;
 }
 
+.label{
+  font-weight: bold;
+}
+
 .skill_icon
 {
   height: 55px;
@@ -45,8 +49,8 @@ td{
   vertical-align: middle;
 }
 
-.label{
-  font-weight: bold;
+.skill-value td:first{
+  font-weight: bold;  
 }
 
 .arts{
