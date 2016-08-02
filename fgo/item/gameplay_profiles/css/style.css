@@ -1,9 +1,8 @@
 *{
   background: black;
   font-size: 18px;
-  background-image: -webkit-linear-gradient(#FFF65C, #3A2C00);
   text-shadow: -0.02em -0.03em 0.005em rgba(255, 223, 0, 0.60);
-  color: #ccc;
+  color: -webkit-linear-gradient(#FFF65C, #3A2C00);
   border-style: none;
 }
 
