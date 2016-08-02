@@ -1,11 +1,14 @@
-.skill_icon
-{
-  height: 55px;
-  width: 55px;
-  display: inline-block;
-}
-
 .skill_DefenceUp
 {
   background: url(http://aozakiaoko.github.io/fgo/img/skills/DefenceUp.png);
+}
+
+.skill_Invincibility
+{
+  background: url(http://aozakiaoko.github.io/fgo/img/skills/Invincibility.png);
+}
+
+.skill_Taunt
+{
+  background: url(http://aozakiaoko.github.io/fgo/img/skills/Taunt.png);
 }

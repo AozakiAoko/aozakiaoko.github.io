@@ -21,7 +21,6 @@
 
 .svt{
   margin: 0 auto;
-  background: #111;
   width: 800px;
   height: 800px;
 }
@@ -40,6 +39,15 @@ td{
 .markup-to-hide td{
   width: 20px;
   height: 1px;
+}
+
+.skill_icon
+{
+  height: 55px;
+  width: 55px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .arts{
