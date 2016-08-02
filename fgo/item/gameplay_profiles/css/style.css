@@ -49,7 +49,7 @@ td{
   vertical-align: middle;
 }
 
-.skill-value td:first{
+.skill-value td:first-child{
   font-weight: bold;  
 }
 
