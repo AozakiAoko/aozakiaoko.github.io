@@ -12,3 +12,13 @@ $( document ).ready(function() {
 	getSvt("01");
     console.log( "ready!" );
 });
+
+$(".svtClassSelection img").click(function(){
+	var id = $(this).attr("id");
+	$(".svtSelection div").hide();
+	$("#"+id).show();
+});
+
+$(".svtSelection div div").click(function(){
+	getSvt($(this).attr("id"))
+});
