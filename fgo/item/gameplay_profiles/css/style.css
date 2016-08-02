@@ -53,6 +53,11 @@ td{
   font-weight: bold;  
 }
 
+.NP
+{
+  font-weight: bolder;
+}
+
 .arts{
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+20,2989d8+50,1e5799+80&0+0,0.8+15,1+36,1+81,0.8+85,0+100;Blue+Two+Sided+Transparent */
   background: -moz-linear-gradient(left, rgba(30,87,153,0) 0%, rgba(30,87,153,0.8) 15%, rgba(30,87,153,0.85) 20%, rgba(36,114,187,1) 36%, rgba(41,137,216,1) 50%, rgba(30,87,153,1) 80%, rgba(30,87,153,1) 81%, rgba(30,87,153,0.8) 85%, rgba(30,87,153,0) 100%); /* FF3.6-15 */
