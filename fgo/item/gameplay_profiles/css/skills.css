@@ -37,3 +37,33 @@
 {
   background: url(http://aozakiaoko.github.io/fgo/img/skills/Instinct.png);
 }
+
+.skill_Dodge
+{
+  background: url(http://aozakiaoko.github.io/fgo/img/skills/Dodge.png);
+}
+
+.skill_QuickUp
+{
+  background: url(http://aozakiaoko.github.io/fgo/img/skills/QuickUp.png);
+}
+
+.skill_PowerUp
+{
+  background: url(http://aozakiaoko.github.io/fgo/img/skills/PowerUp.png);
+}
+
+.skill_SkillSeal
+{
+  background: url(http://aozakiaoko.github.io/fgo/img/skills/SkillSeal.png);
+}
+
+.skill_ChargeNP
+{
+  background: url(http://aozakiaoko.github.io/fgo/img/skills/ChargeNP.png);
+}
+
+.skill_Disengage
+{
+  background: url(http://aozakiaoko.github.io/fgo/img/skills/Disengage.png);
+}
