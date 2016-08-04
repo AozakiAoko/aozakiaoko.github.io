@@ -46,6 +46,16 @@ td{
   color: gold;
 }
 
+.skill-description b
+{
+  color: gold;
+}
+
+.np-description b
+{
+  color: gold;
+}
+
 .skill_icon
 {
   height: 55px;
