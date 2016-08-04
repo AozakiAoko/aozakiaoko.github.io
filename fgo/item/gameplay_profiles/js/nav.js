@@ -10,7 +10,7 @@ function getSvt(ID)
 
 $( document ).ready(function() {
 	$(".svtSelection div").hide();
-	getSvt($(this).attr("01"))
+	getSvt($(this).attr(01))
 });
 
 $(".svtClassSelection img").click(function(){

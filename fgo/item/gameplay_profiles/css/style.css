@@ -10,7 +10,7 @@
   width: 800px;
   text-align: center;
   vertical-align: middle;
-  color: gold;
+  font-size: 24px;
 }
 
 .menu div{
@@ -89,5 +89,5 @@ td{
 }
 
 .skill-info{
-  background: #100;
+  background: #123;
 }
