@@ -22,3 +22,9 @@ $(".svtClassSelection img").click(function(){
 $(".svtSelection div img").click(function(){
 	getSvt($(this).attr("id"))
 });
+
+$("#Tabs div").click(function(){
+	var id = $(this).attr("id");
+	$("#Content div").hide();
+	$("#Content ." + id).show();
+});
