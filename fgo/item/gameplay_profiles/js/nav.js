@@ -4,9 +4,9 @@ function getSvt(ID)
 {
 	var src = path + ID + ".html";
 	$(".svt").load(src, function(html){
-		$(".svtInfo").empty().append($(".svtInfo"), html);
-		$(".svtGameplay").empty().append($(".svtGameplay"), html);
-		$(".svtTips").empty().append($(".svtTips"), html);
+		$(".svtInfo").empty().append($(html).filter(".svtInfo");
+		$(".svtGameplay").empty().append($(html).filter(".svtGameplay");
+		$(".svtTips").empty().append($(html).filter(".svtTips");
 	});
 }
 
