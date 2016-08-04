@@ -84,3 +84,6 @@ td{
   background: linear-gradient(to right, rgba(255,50,50,0) 0%,rgba(255,50,50,0.8) 15%,rgba(255,50,50,0.85) 20%,rgba(255,49,49,1) 36%,rgba(255,49,49,1) 48%,rgba(255,50,50,1) 80%,rgba(255,50,50,1) 81%,rgba(255,50,50,0.8) 85%,rgba(255,50,50,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
+.skill-infp{
+  background: #100;
+}
