@@ -3,7 +3,7 @@ var path = "http://aozakiaoko.github.io/fgo/item/gameplay_profiles/svt/";
 function getSvt(ID)
 {
 	var src = path + ID + ".html";
-	$(".svt").load(src, function(html){
+	$("#Content .svtInfo").load(src, function(html){
 		$("#Content .svtInfo").empty().append(html);
 	});
 }
