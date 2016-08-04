@@ -4,7 +4,7 @@ function getSvt(ID)
 {
 	var src = path + ID + ".html";
 	$(".svt").load(src, function(html){
-		$(".svtInfo").empty().append(html);
+		$("#Content .svtInfo").empty().append(html);
 	});
 }
 
