@@ -67,6 +67,8 @@ td{
 
 .CardLayout span
 {
+  display: inline-block;
+  margin: 0 auto;
   width: 100px;
   color: #fff;
   text-shadow: 1px 1px 1px #000;
