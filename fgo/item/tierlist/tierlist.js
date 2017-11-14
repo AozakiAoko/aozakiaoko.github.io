@@ -1,5 +1,3 @@
-document.getElementById('youridhere').scrollIntoView();
-
 $(document).ready(function(){
 	$(".tierlist tr td div").on('click', function(){
 		$(".SvtImg").empty().append( $(this).html() );
