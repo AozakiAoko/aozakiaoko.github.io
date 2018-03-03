@@ -35,3 +35,7 @@ td {
     color: #FFD700;
     text-shadow: 3px 3px 8px #BF7F00, -3px -3px 8px #BF7F00;
 }
+
+.wip {
+    filter: grayscale(100%);
+}
