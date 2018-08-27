@@ -1,4 +1,6 @@
-function printServant(svtData){
+function printServant(jsonstring){
+  svtData = parseJSON(testsvtdata);
+  //
   $("#svt").empty().append(svtData.Name);
 };
 
@@ -16,4 +18,4 @@ function printServant(svtData){
     xobj.send(null);  
  }
 
-var testsvtdata = loadJSON('./data/svt/0.json', printServant(parseJSON(testsvtdata));
+var testsvtdata = loadJSON('./data/svt/0.json', printServant);
