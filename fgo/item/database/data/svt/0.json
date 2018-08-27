@@ -1,83 +1,89 @@
   {
-    "id": 0,
+    "imgdata": {
+      "ascension": [
+        "http://aozakiaoko.github.io/fgo/img/svtcard/shielder/mashu.jpg"
+      ]
+    },
+    "id": "VALUE",
     "Name": "name",
-    "Class": "",
-    "Attack": "",
-    "HP": "",
+    "Class": "VALUE",
+    "Gender": "VALUE",
+    "Attack": "VALUE",
+    "HP": "VALUE",
     "NPgain": {
-      "attack": "",
-      "defence": ""
+      "attack": "VALUE",
+      "defence": "VALUE"
     },
     "Deck": [{
-        "Quick": 2
+        "Quick": "VALUE"
       },
       {
-        "Arts": 2
+        "Arts": "VALUE"
       },
       {
-        "Buster": 1
+        "Buster": "VALUE"
       },
       {
-        "Extra": 1
+        "Extra": "VALUE"
       },
       {
-        "NP": 0
+        "NP": "VALUE"
       }
     ],
-    "StarWeight": "",
-    "StarRate": 1,
-    "DeathRate": 1,
-    "Attribute": "",
+    "StarWeight": "VALUE",
+    "StarRate": "VALUE",
+    "DeathRate": "VALUE",
+    "Attribute": "VALUE",
     "Skills": [
         {
-        "Name": 0,
-        "Description": 0,
+        "Name": "VALUE",
+        "Description": "VALUE",
         "SkillEffects": [
-          {"effect": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
-          {"effect": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}]
+          {"effect": ["VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE"]},
+          {"effect": ["VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE"]}]
         },
         {
-        "Name": 0,
-        "Description": 0,
+        "Name": "VALUE",
+        "Description": "VALUE",
         "SkillEffects": [
-          {"effect": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
-          {"effect": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}]
+          {"effect": ["VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE"]},
+          {"effect": ["VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE"]}]
         },
         {
-        "Name": 0,
-        "Description": 0,
+        "Name": "VALUE",
+        "Description": "VALUE",
         "SkillEffects": [
-          {"effect": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]},
-          {"effect": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}]
+          {"effect": ["VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE"]},
+          {"effect": ["VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE"]}]
         }
     ],
     "PassiveSkills": [
       {
-        "Name": 0,
-        "Description": 0,
+        "Name": "VALUE",
+        "Description": "VALUE",
         "SkillEffects": [
-          {"effect1": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
+          {"effect": ["VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE"]}
         ]
       },
       {
-        "Name": 0,
-        "Description": 0,
+        "Name": "VALUE",
+        "Description": "VALUE",
         "SkillEffects": [
-          {"effect1": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
+          {"effect": ["VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE"]}
         ]
       }
     ],
     "NoblePhantasm": [
       {
-        "Name": 0,
-        "Description": 0,
-        "CardType": 0,
+        "Name": "VALUE",
+        "Description": "VALUE",
+        "CardType": "VALUE",
         "Effects": 
         [
-          {"effect1": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-          "scaling": 0},
-          {"effect2": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-          "scaling": 0}         
+          {"effect": ["VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE"],
+          "scaling": "VALUE"},
+          {"effect": ["VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE"],
+          "scaling": "VALUE"}         
         ]
     }]
   }
