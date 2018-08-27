@@ -2,6 +2,9 @@
     "imgdata": {
       "ascension": [
         "https://aozakiaoko.github.io/fgo/img/svtcard/shielder/mashu.jpg"
+      ],
+      "skills": [
+
       ]
     },
     "id": "001",
@@ -28,14 +31,15 @@
     "StarRate": "9.00",
     "DeathRate": "24.5",
     "Attribute": "Earth",
+    "Traits": "Riding, Servant, Humanoid, Weak to Enuma Elish, Earth or Sky",
     "Skills": [
         {
         "Name": "Transient Wall of Showflakes",
         "Target": "All Allies",
         "Cooldown": "7",
         "SkillEffects": [
-          {"Increase defence": 
-          ["10%", "10.5%", "11%", "11.5", "12", "12.5", "13", "13.5", "14", "15"]}
+          ["Increase defence of all allies",
+          ["10%", "10.5%", "11%", "11.5", "12", "12.5", "13", "13.5", "14", "15"]]
         ]
         },
         {
@@ -44,8 +48,8 @@
         "Cooldown": "9",        
         "Description": "VALUE",
         "SkillEffects": [
-          {"Apply Invincibility (1 turn)": 
-          ["-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]},
+          ["Apply Invincibility (1 turn)",
+          ["-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]],
           {"Increase NP Gauge": 
           ["10%", "11%", "12%", "13%", "14%", "15%", "16%", "17%", "18%", "20%"]}
         ]
@@ -55,10 +59,10 @@
         "Target": "Self",
         "Cooldown": "8",        
         "SkillEffects": [
-          {"Apply Target Focus (1 turn)": 
-          ["-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]},
-          {"Increase NP Gain (1 turn)": 
-          ["200%", "220%", "240%", "260%", "280%", "300%", "320%", "340%", "360%", "400%"]}
+          ["Apply Target Focus (1 turn)", 
+          ["-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]],
+          ["Increase NP Gain (1 turn)", 
+          ["200%", "220%", "240%", "260%", "280%", "300%", "320%", "340%", "360%", "400%"]]
         ]
         }
     ],
