@@ -50,7 +50,7 @@
         "SkillEffects": [
           ["Apply Invincibility (1 turn)",
           ["-", "-", "-", "-", "-", "-", "-", "-", "-", "-"]],
-          ["Increase NP Gauge": 
+          ["Increase NP Gauge",
           ["10%", "11%", "12%", "13%", "14%", "15%", "16%", "17%", "18%", "20%"]]
         ]
         },
