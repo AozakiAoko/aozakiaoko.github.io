@@ -88,16 +88,22 @@
     "NoblePhantasm": [
       {
         "Name": "Lord Chaldeas",
+        "Rank": "D",
         "Description": "Virtual Noble Phantasm, Pseudo-Deployment / Humanity's Foundation",
-        "CardType": "Arts",
+        "CardType": "arts",
         "Effects": 
         [
-          {"Increase defence (All Allies)": 
+          [ 
+            "Increase defence (All Allies)", 
             ["30%", "35%", "40%", "45%", "50%"],
-          "scaling": "level"},
-          {"Apply Damage Cut": 
+            "level"
+          ],
+          [
+            "Apply Damage Cut", 
             ["100", "550", "775", "888", "1000"],
-          "scaling": "overcharge"}         
+           "overcharge"
+          ]         
         ]
-    }]
+      }
+    ]
   }
