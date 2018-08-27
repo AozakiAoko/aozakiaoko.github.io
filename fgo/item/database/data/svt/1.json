@@ -5,6 +5,9 @@
       ],
       "skills": [
 
+      ],
+      "passiveSkills": [
+
       ]
     },
     "id": "001",
@@ -68,15 +71,17 @@
     ],
     "PassiveSkills": [
       {
-        "Name": "Magic Resistance (Rank A)",
+        "Name": "Magic Resistance",
+        "Rank": "A",
         "SkillEffects": [
-          {"Increase Debuff Resistance": "20%"}
+          ["Increase Debuff Resistance", "20%"]
         ]
       },
       {
-        "Name": "Riding (Rank C)",
+        "Name": "Riding",
+        "Rank": "C",        
         "SkillEffects": [
-          {"Increase Quick Card performance": "6%"}
+          ["Increase Quick Card performance", "6%"]
         ]
       }
     ],
