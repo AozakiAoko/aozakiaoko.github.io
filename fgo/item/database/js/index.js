@@ -1,5 +1,5 @@
 function printServant(jsonstring){
-  svtData = parseJSON(testsvtdata);
+  svtData = JSON.parse(testsvtdata);
   //
   $("#svt").empty().append(svtData.Name);
 };
