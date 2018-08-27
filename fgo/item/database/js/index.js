@@ -1,3 +1,21 @@
+'use strict';
+
+var svtpath = 'https://aozakiaoko.github.io/fgo/item/database/data/svt/';
+
+$.getJSON(svttest, function(svtData) {
+    svtpath
+});
+
+var path = "http://aozakiaoko.github.io/fgo/item/gameplay_profiles/svt/";
+
+function getSvt(ID)
+{
+  var src = svtpath + ID + ".json";
+  $.getJSON(src, function(svtData) {
+      printServant(svtData)
+  });
+}
+
 function printServant(svtData)
 {
   //load ascension image
@@ -129,24 +147,6 @@ function printServant(svtData)
     }  
   }  
 };
-
-'use strict';
-
-var svtpath = 'https://aozakiaoko.github.io/fgo/item/database/data/svt/';
-
-$.getJSON(svttest, function(svtData) {
-    svtpath
-});
-
-var path = "http://aozakiaoko.github.io/fgo/item/gameplay_profiles/svt/";
-
-function getSvt(ID)
-{
-  var src = svtpath + ID + ".html";
-  $.getJSON(src, function(svtData) {
-      printServant(svtData)
-  });
-}
 
 $( document ).ready(function() {
   $(".svtSelection div").hide();
