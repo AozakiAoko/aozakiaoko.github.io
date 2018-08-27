@@ -8,28 +8,22 @@
     "Name": "Mashu Kyrielight",
     "Class": "Shielder",
     "Gender": "Female",
+    "Artwork": "Takeuchi Takashi",
+    "CV": "Taneda Risa",
     "Attack": "6791",
     "HP": "10302",
     "NPgain": {
       "attack": "0.84",
       "defence": "3.00"
     },
-    "Deck": [{
-        "Quick": "2"
-      },
-      {
-        "Arts": "2"
-      },
-      {
-        "Buster": "1"
-      },
-      {
-        "Extra": "3"
-      },
-      {
+    "CardLayout": "QAABB",
+    "Deck": {
+        "Quick": "2",
+        "Arts": "2",
+        "Buster": "1",
+        "Extra": "3",
         "NP": "0"
-      }
-    ],
+      },
     "StarWeight": "99",
     "StarRate": "9.00",
     "DeathRate": "24.5",
