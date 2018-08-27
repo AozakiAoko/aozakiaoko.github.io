@@ -37,52 +37,63 @@
     "Skills": [
         {
         "Name": "VALUE",
-        "Description": "VALUE",
+        "Target": "VALUE",
+        "Cooldown": "VALUE",        
         "SkillEffects": [
-          {"effect": ["VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE"]},
-          {"effect": ["VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE"]}]
+          {"effect": 
+          ["VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE"]},
+          {"effect": 
+          ["VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE"]}
+        ]
         },
         {
         "Name": "VALUE",
-        "Description": "VALUE",
+        "Target": "VALUE",
+        "Cooldown": "VALUE", 
         "SkillEffects": [
-          {"effect": ["VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE"]},
-          {"effect": ["VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE"]}]
+          {"effect": 
+          ["VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE"]},
+          {"effect": 
+          ["VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE"]}
+        ]
         },
         {
         "Name": "VALUE",
-        "Description": "VALUE",
+        "Target": "VALUE",
+        "Cooldown": "VALUE", 
         "SkillEffects": [
-          {"effect": ["VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE"]},
-          {"effect": ["VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE"]}]
+          {"effect": 
+          ["VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE"]},
+          {"effect": 
+          ["VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE"]}
+        ]
         }
     ],
     "PassiveSkills": [
       {
         "Name": "VALUE",
-        "Description": "VALUE",
         "SkillEffects": [
-          {"effect": ["VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE"]}
+          {"effect": ""}
         ]
       },
       {
         "Name": "VALUE",
-        "Description": "VALUE",
         "SkillEffects": [
-          {"effect": ["VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE"]}
+          {"effect": ""}
         ]
       }
     ],
     "NoblePhantasm": [
       {
         "Name": "VALUE",
-        "Description": "VALUE",
         "CardType": "VALUE",
         "Effects": 
         [
-          {"effect": ["VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE"],
+          {"effect": 
+            ["VALUE", "VALUE", "VALUE", "VALUE", "VALUE"],
           "scaling": "VALUE"},
-          {"effect": ["VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE", "VALUE"],
+          {"effect": 
+            ["VALUE", "VALUE", "VALUE", "VALUE", "VALUE"],
           "scaling": "VALUE"}         
         ]
     }]
