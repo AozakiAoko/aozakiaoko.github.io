@@ -1,4 +1,5 @@
 $( document ).ready(function() {
+  $("#Content").hide();
   $(".svtSelection div").hide();
   $("#001").trigger('click');
 });
@@ -10,5 +11,6 @@ $(".svtClassSelection img").click(function(){
 });
 
 $(".svtSelection div img").click(function(){
-  getSvt($(this).attr("id"))
+  $("#Content").hide();
+  getSvt($(this).attr("id"));
 });

@@ -6,7 +6,8 @@ function getSvt(ID)
 {
   var src = svtpath + ID + ".json";
   $.getJSON(src, function(svtData) {
-      printServant(svtData)
+      printServant(svtData);
+      $("#Content").show();
   });
 }
 
@@ -141,4 +142,3 @@ function printServant(svtData)
     }  
   }  
 };
-
