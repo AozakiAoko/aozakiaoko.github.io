@@ -132,8 +132,33 @@ function printServant(svtData)
 
 'use strict';
 
-var svttest = 'https://aozakiaoko.github.io/fgo/item/database/data/svt/1.json';
+var svtpath = 'https://aozakiaoko.github.io/fgo/item/database/data/svt/';
 
 $.getJSON(svttest, function(svtData) {
-    printServant(svtData);
+    svtpath
+});
+
+var path = "http://aozakiaoko.github.io/fgo/item/gameplay_profiles/svt/";
+
+function getSvt(ID)
+{
+  var src = svtpath + ID + ".html";
+  $.getJSON(src, function(svtData) {
+      printServant(svtData)
+  });
+}
+
+$( document ).ready(function() {
+  $(".svtSelection div").hide();
+  $("#001").trigger('click');
+});
+
+$(".svtClassSelection img").click(function(){
+  var id = $(this).attr("id");
+  $(".svtSelection div").hide();
+  $(".svtSelection ."+id).show();
+});
+
+$(".svtSelection div img").click(function(){
+  getSvt($(this).attr("id"))
 });
