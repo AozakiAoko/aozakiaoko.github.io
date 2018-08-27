@@ -16,4 +16,4 @@ function printServant(svtData){
     xobj.send(null);  
  }
 
-var testsvtdata = loadJSON('./data/0.json', printServant(testsvtdata));
+var testsvtdata = loadJSON('./data/svt/0.json', printServant(parseJSON(testsvtdata));
