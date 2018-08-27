@@ -50,7 +50,7 @@ function printServant(svtData)
   //load card layout and card data
   console.log(svtData.CardLayout)
   $(".val_CardLayout").empty();
-  for(i = 0; i < 5; i++){
+  for(var i = 0; i < 5; i++){
     if(svtData.CardLayout[i]=='Q')
       $(".val_CardLayout").append($("#quickcard").html());  
     if(svtData.CardLayout[i]=='A')
@@ -67,7 +67,7 @@ function printServant(svtData)
   //load skills
   $(".skill-separator").empty();
   console.log(svtData.Skills.length);
-  for(i = 0; i < svtData.Skills.length; i++){
+  for(var i = 0; i < svtData.Skills.length; i++){
     //skillheader
     $("#skillheader .skill_icon img").attr("src", svtData.imgdata.skills[i]);
     console.log(svtData.Skills[i].Name);
@@ -80,10 +80,10 @@ function printServant(svtData)
     //plug in
     $(".skill-separator").append($("#skillheader").html());    
     //skillrows
-    for(j = 0; j < svtData.Skills[i].SkillEffects.length; j++)
+    for(var j = 0; j < svtData.Skills[i].SkillEffects.length; j++)
     {
         $("#skillrow .label").empty().append(svtData.Skills[i].SkillEffects[j][0]);
-        for(k = 0; k < 10; k++){
+        for(var k = 0; k < 10; k++){
           $("#skillrow .skill-value td:nth-child(" + (2+k) + ")")
             .empty().append(svtData.Skills[i].SkillEffects[j][1][k]); 
         }
@@ -95,7 +95,7 @@ function printServant(svtData)
   $(".passive-separator").empty();
   console.log(svtData.PassiveSkills.length);
   //plug in 
-  for(i = 0; i < svtData.PassiveSkills.length; i++)
+  for(var i = 0; i < svtData.PassiveSkills.length; i++)
   {
     //skillheader
     $("#passives .skill_icon img").attr("src", svtData.imgdata.passiveSkills[i]);
@@ -106,7 +106,7 @@ function printServant(svtData)
       .append(svtData.PassiveSkills[i].Rank);    
     //skillvalues
     $(".passive-separator").append($("#passives").html()); 
-    for(j = 0; j < svtData.PassiveSkills[i].SkillEffects.length; j++)
+    for(var j = 0; j < svtData.PassiveSkills[i].SkillEffects.length; j++)
     {
       $("#passives-values .label").empty().append(svtData.PassiveSkills[i].SkillEffects[j][0]);
       $("#passives-values .value").empty().append(svtData.PassiveSkills[i].SkillEffects[j][1]);
@@ -117,7 +117,7 @@ function printServant(svtData)
   //NP
   $(".np-separator").empty();
   console.log(svtData.NoblePhantasm.length);
-  for(i = 0; i < svtData.NoblePhantasm.length; i++){
+  for(var i = 0; i < svtData.NoblePhantasm.length; i++){
     //noheader
     console.log(svtData.NoblePhantasm[i].Name);
     $("#npheader .NPname").empty()
@@ -128,11 +128,11 @@ function printServant(svtData)
     //plug in
     $(".np-separator").append($("#npheader").html());    
     //npvalues
-    for(j = 0; j < svtData.NoblePhantasm[i].Effects.length; j++)
+    for(var j = 0; j < svtData.NoblePhantasm[i].Effects.length; j++)
     {
         $("#npvalues .label").empty().append(svtData.NoblePhantasm[i].Effects[j][0]);
         $("#npvalues .scaling").empty().append(svtData.NoblePhantasm[i].Effects[j][2]);
-        for(k = 0; k < 5; k++){
+        for(var k = 0; k < 5; k++){
           $("#npvalues .np-value td:nth-child(" + (2+k) + ")")
             .empty().append(svtData.NoblePhantasm[i].Effects[j][1][k]); 
         }
