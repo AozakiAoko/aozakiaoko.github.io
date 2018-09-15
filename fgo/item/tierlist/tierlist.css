@@ -39,3 +39,9 @@ td {
 .wip {
     filter: grayscale(100%);
 }
+
+.rank_item{
+    width: 150px;
+    color: #FFD700;
+    text-shadow: 3px 3px 8px #BF7F00, -3px -3px 8px #BF7F00;
+}
