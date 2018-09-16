@@ -4,8 +4,7 @@ $(document).ready(function(){
 		$(".Explanation").empty().append($(".tips ." + $(this).attr("class").split(' ')[0]).html());
 	});
 
-	$(".tierlist tr td div").on('click', function(){
-		$(".SvtImg").empty().append( '<div class="' + $(this).attr("class") +'"></div>' );
-		$(".parameters_explanation").empty().append($(".tips ." + $(this).attr("class").split(' ')[0]).html());
+	$(".rank_item").on('click', function(){
+		$(".parameters_explanation").empty().append($(".tips ." + $(this).attr("class").split(' ')[1]).html());
 	});	
 });
