@@ -5,6 +5,7 @@ $(document).ready(function(){
 	});
 
 	$(".categories_all td").on('click', function(){
-		$(".parameters_display_explanation").empty().append($(".parameters_explanation td " + $(this).attr("class").split(' ')[0]).html());
+		$(".parameters_display_explanation").empty()
+		.append($('.parameters_explanation > .' + $(this).attr("class").split(' ')[0]).html());
 	});	
 });
