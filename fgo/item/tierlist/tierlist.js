@@ -4,7 +4,7 @@ $(document).ready(function(){
 		$(".Explanation").empty().append($(".tips ." + $(this).attr("class").split(' ')[0]).html());
 	});
 
-	$(".rank_item").on('click', function(){
-		$(".parameters_explanation").empty().append($(".tips ." + $(this).attr("class").split(' ')[1]).html());
+	$(".categories_all td").on('click', function(){
+		$(".parameters_explanation td " + $(this).attr("class").split(' ')[0]).show();
 	});	
 });
