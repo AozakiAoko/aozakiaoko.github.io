@@ -51,3 +51,11 @@ td {
     color: #FF0000;
     text-shadow: 3px 3px 8px #BF7F00, -3px -3px 8px #BF7F00;
 }
+
+.raritySSR:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.categories_all td:hover {
+    text-shadow: 3px 3px 8px #BF7F00, -3px -3px 8px #BF7F00;
+}
