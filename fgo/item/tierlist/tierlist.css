@@ -7,6 +7,7 @@ td div{
 	height: 128px;
 	width:  128px;
 	display: inline-block;
+    background-size:     cover;
 }
 
 .title{
@@ -56,7 +57,7 @@ td {
     transform: scale(1.2, 1.2);
 }
 
-.categories_all td:hover {
+.categories_all td span:hover {
     text-shadow: 3px 3px 8px #BF7F00, -3px -3px 8px #BF7F00;
     transform: scale(1.2, 1.2);    
 }
