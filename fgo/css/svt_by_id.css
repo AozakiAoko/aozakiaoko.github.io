@@ -5,7 +5,7 @@
 
 =====================================================================================*/
 .svt{
-	background-size: contain;
+	background-size: contain !important;
 	box-shadow: 0 0 4px 4px black inset;
 }
 
