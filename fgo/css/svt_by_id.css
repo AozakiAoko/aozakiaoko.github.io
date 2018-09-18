@@ -4,6 +4,9 @@
 .svt_{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/.png)}
 
 =====================================================================================*/
+.svt{
+	background-size: contain;
+}
 
 .svt_1{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/1.png)}
 .svt_2{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/2.png)}
