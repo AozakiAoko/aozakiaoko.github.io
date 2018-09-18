@@ -1,229 +1,230 @@
 /*=====================================================================================
 										TEMPLATE
 
-.svt_{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
+.svtid_{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/.png)}
 
 =====================================================================================*/
-.svt_1{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/1.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_2{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/2.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_3{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/3.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_4{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/4.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_5{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/5.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_6{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/6.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_7{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/7.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_8{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/8.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_9{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/9.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_10{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/10.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_11{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/11.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_12{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/12.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_13{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/13.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_14{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/14.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_15{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/15.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_16{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/16.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_17{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/17.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_18{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/18.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_19{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/19.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_20{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/20.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_21{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/21.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_22{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/22.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_23{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/23.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_24{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/24.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_25{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/25.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_26{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/26.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_27{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/27.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_28{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/28.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_29{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/29.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_30{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/30.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_31{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/31.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_32{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/32.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_33{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/33.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_34{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/34.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_35{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/35.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_36{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/36.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_37{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/37.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_38{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/38.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_39{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/39.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_40{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/40.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_41{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/41.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_42{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/42.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_43{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/43.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_44{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/44.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_45{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/45.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_46{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/46.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_47{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/47.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_48{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/48.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_49{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/49.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_50{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/50.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_51{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/51.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_52{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/52.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_53{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/53.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_54{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/54.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_55{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/55.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_56{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/56.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_57{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/57.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_58{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/58.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_59{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/59.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_60{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/60.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_61{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/61.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_62{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/62.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_63{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/63.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_64{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/64.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_65{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/65.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_66{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/66.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_67{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/67.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_68{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/68.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_69{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/69.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_70{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/70.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_71{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/71.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_72{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/72.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_73{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/73.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_74{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/74.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_75{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/75.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_76{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/76.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_77{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/77.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_78{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/78.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_79{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/79.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_80{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/80.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_81{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/81.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_82{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/82.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_83{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/83.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_84{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/84.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_85{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/85.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_86{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/86.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_87{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/87.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_88{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/88.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_89{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/89.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_90{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/90.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_91{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/91.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_92{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/92.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_93{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/93.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_94{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/94.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_95{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/95.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_96{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/96.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_97{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/97.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_98{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/98.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_99{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/99.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_100{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/100.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_101{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/101.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_102{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/102.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_103{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/103.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_104{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/104.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_105{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/105.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_106{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/106.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_107{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/107.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_108{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/108.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_109{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/109.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_110{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/110.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_111{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/111.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_112{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/112.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_113{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/113.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_114{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/114.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_115{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/115.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_116{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/116.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_117{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/117.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_118{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/118.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_119{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/119.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_120{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/120.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_121{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/121.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_122{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/122.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_123{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/123.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_124{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/124.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_125{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/125.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_126{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/126.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_127{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/127.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_128{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/128.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_129{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/129.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_130{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/130.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_131{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/131.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_132{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/132.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_133{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/133.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_134{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/134.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_135{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/135.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_136{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/136.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_137{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/137.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_138{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/138.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_139{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/139.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_140{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/140.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_141{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/141.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_142{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/142.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_143{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/143.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_144{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/144.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_145{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/145.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_146{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/146.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_147{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/147.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_148{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/148.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_149{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/149.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_150{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/150.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_151{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/151.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_152{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/152.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_153{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/153.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_154{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/154.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_155{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/155.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_156{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/156.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_157{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/157.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_158{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/158.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_159{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/159.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_160{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/160.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_161{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/161.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_162{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/162.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_163{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/163.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_164{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/164.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_165{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/165.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_166{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/166.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_167{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/167.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_168{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/168.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_169{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/169.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_170{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/170.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_171{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/171.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_172{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/172.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_173{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/173.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_174{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/174.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_175{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/175.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_176{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/176.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_177{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/177.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_178{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/178.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_179{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/179.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_180{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/180.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_181{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/181.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_182{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/182.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_183{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/183.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_184{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/184.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_185{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/185.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_186{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/186.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_187{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/187.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_188{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/188.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_189{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/189.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_190{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/190.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_191{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/191.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_192{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/192.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_193{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/193.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_194{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/194.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_195{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/195.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_196{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/196.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_197{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/197.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_198{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/198.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_199{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/199.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_200{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/200.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_201{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/201.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_202{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/202.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_203{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/203.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_204{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/204.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_205{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/205.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_206{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/206.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_207{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/207.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_208{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/208.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_209{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/209.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_210{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/210.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_211{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/211.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_212{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/212.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_213{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/213.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_214{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/214.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_215{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/215.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_216{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/216.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_217{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/217.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_218{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/218.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_219{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/219.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_220{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/220.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_221{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/221.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_222{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/222.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
-.svt_223{background: url(http://aozakiaoko.github.io/fgo/img/svt_by_id/223.png);background-size: contain;box-shadow: 0 0 4px 4px black inset;}
+.svt{background-size: contain;box-shadow: 0 0 4px 4px black inset;}
+.svtid_1{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/1.png)}
+.svtid_2{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/2.png)}
+.svtid_3{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/3.png)}
+.svtid_4{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/4.png)}
+.svtid_5{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/5.png)}
+.svtid_6{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/6.png)}
+.svtid_7{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/7.png)}
+.svtid_8{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/8.png)}
+.svtid_9{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/9.png)}
+.svtid_10{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/10.png)}
+.svtid_11{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/11.png)}
+.svtid_12{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/12.png)}
+.svtid_13{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/13.png)}
+.svtid_14{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/14.png)}
+.svtid_15{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/15.png)}
+.svtid_16{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/16.png)}
+.svtid_17{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/17.png)}
+.svtid_18{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/18.png)}
+.svtid_19{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/19.png)}
+.svtid_20{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/20.png)}
+.svtid_21{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/21.png)}
+.svtid_22{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/22.png)}
+.svtid_23{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/23.png)}
+.svtid_24{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/24.png)}
+.svtid_25{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/25.png)}
+.svtid_26{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/26.png)}
+.svtid_27{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/27.png)}
+.svtid_28{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/28.png)}
+.svtid_29{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/29.png)}
+.svtid_30{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/30.png)}
+.svtid_31{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/31.png)}
+.svtid_32{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/32.png)}
+.svtid_33{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/33.png)}
+.svtid_34{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/34.png)}
+.svtid_35{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/35.png)}
+.svtid_36{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/36.png)}
+.svtid_37{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/37.png)}
+.svtid_38{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/38.png)}
+.svtid_39{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/39.png)}
+.svtid_40{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/40.png)}
+.svtid_41{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/41.png)}
+.svtid_42{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/42.png)}
+.svtid_43{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/43.png)}
+.svtid_44{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/44.png)}
+.svtid_45{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/45.png)}
+.svtid_46{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/46.png)}
+.svtid_47{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/47.png)}
+.svtid_48{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/48.png)}
+.svtid_49{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/49.png)}
+.svtid_50{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/50.png)}
+.svtid_51{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/51.png)}
+.svtid_52{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/52.png)}
+.svtid_53{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/53.png)}
+.svtid_54{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/54.png)}
+.svtid_55{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/55.png)}
+.svtid_56{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/56.png)}
+.svtid_57{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/57.png)}
+.svtid_58{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/58.png)}
+.svtid_59{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/59.png)}
+.svtid_60{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/60.png)}
+.svtid_61{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/61.png)}
+.svtid_62{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/62.png)}
+.svtid_63{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/63.png)}
+.svtid_64{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/64.png)}
+.svtid_65{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/65.png)}
+.svtid_66{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/66.png)}
+.svtid_67{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/67.png)}
+.svtid_68{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/68.png)}
+.svtid_69{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/69.png)}
+.svtid_70{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/70.png)}
+.svtid_71{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/71.png)}
+.svtid_72{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/72.png)}
+.svtid_73{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/73.png)}
+.svtid_74{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/74.png)}
+.svtid_75{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/75.png)}
+.svtid_76{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/76.png)}
+.svtid_77{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/77.png)}
+.svtid_78{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/78.png)}
+.svtid_79{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/79.png)}
+.svtid_80{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/80.png)}
+.svtid_81{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/81.png)}
+.svtid_82{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/82.png)}
+.svtid_83{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/83.png)}
+.svtid_84{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/84.png)}
+.svtid_85{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/85.png)}
+.svtid_86{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/86.png)}
+.svtid_87{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/87.png)}
+.svtid_88{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/88.png)}
+.svtid_89{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/89.png)}
+.svtid_90{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/90.png)}
+.svtid_91{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/91.png)}
+.svtid_92{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/92.png)}
+.svtid_93{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/93.png)}
+.svtid_94{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/94.png)}
+.svtid_95{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/95.png)}
+.svtid_96{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/96.png)}
+.svtid_97{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/97.png)}
+.svtid_98{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/98.png)}
+.svtid_99{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/99.png)}
+.svtid_100{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/100.png)}
+.svtid_101{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/101.png)}
+.svtid_102{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/102.png)}
+.svtid_103{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/103.png)}
+.svtid_104{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/104.png)}
+.svtid_105{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/105.png)}
+.svtid_106{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/106.png)}
+.svtid_107{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/107.png)}
+.svtid_108{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/108.png)}
+.svtid_109{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/109.png)}
+.svtid_110{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/110.png)}
+.svtid_111{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/111.png)}
+.svtid_112{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/112.png)}
+.svtid_113{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/113.png)}
+.svtid_114{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/114.png)}
+.svtid_115{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/115.png)}
+.svtid_116{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/116.png)}
+.svtid_117{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/117.png)}
+.svtid_118{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/118.png)}
+.svtid_119{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/119.png)}
+.svtid_120{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/120.png)}
+.svtid_121{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/121.png)}
+.svtid_122{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/122.png)}
+.svtid_123{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/123.png)}
+.svtid_124{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/124.png)}
+.svtid_125{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/125.png)}
+.svtid_126{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/126.png)}
+.svtid_127{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/127.png)}
+.svtid_128{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/128.png)}
+.svtid_129{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/129.png)}
+.svtid_130{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/130.png)}
+.svtid_131{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/131.png)}
+.svtid_132{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/132.png)}
+.svtid_133{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/133.png)}
+.svtid_134{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/134.png)}
+.svtid_135{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/135.png)}
+.svtid_136{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/136.png)}
+.svtid_137{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/137.png)}
+.svtid_138{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/138.png)}
+.svtid_139{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/139.png)}
+.svtid_140{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/140.png)}
+.svtid_141{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/141.png)}
+.svtid_142{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/142.png)}
+.svtid_143{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/143.png)}
+.svtid_144{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/144.png)}
+.svtid_145{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/145.png)}
+.svtid_146{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/146.png)}
+.svtid_147{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/147.png)}
+.svtid_148{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/148.png)}
+.svtid_149{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/149.png)}
+.svtid_150{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/150.png)}
+.svtid_151{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/151.png)}
+.svtid_152{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/152.png)}
+.svtid_153{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/153.png)}
+.svtid_154{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/154.png)}
+.svtid_155{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/155.png)}
+.svtid_156{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/156.png)}
+.svtid_157{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/157.png)}
+.svtid_158{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/158.png)}
+.svtid_159{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/159.png)}
+.svtid_160{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/160.png)}
+.svtid_161{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/161.png)}
+.svtid_162{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/162.png)}
+.svtid_163{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/163.png)}
+.svtid_164{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/164.png)}
+.svtid_165{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/165.png)}
+.svtid_166{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/166.png)}
+.svtid_167{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/167.png)}
+.svtid_168{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/168.png)}
+.svtid_169{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/169.png)}
+.svtid_170{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/170.png)}
+.svtid_171{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/171.png)}
+.svtid_172{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/172.png)}
+.svtid_173{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/173.png)}
+.svtid_174{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/174.png)}
+.svtid_175{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/175.png)}
+.svtid_176{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/176.png)}
+.svtid_177{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/177.png)}
+.svtid_178{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/178.png)}
+.svtid_179{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/179.png)}
+.svtid_180{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/180.png)}
+.svtid_181{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/181.png)}
+.svtid_182{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/182.png)}
+.svtid_183{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/183.png)}
+.svtid_184{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/184.png)}
+.svtid_185{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/185.png)}
+.svtid_186{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/186.png)}
+.svtid_187{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/187.png)}
+.svtid_188{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/188.png)}
+.svtid_189{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/189.png)}
+.svtid_190{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/190.png)}
+.svtid_191{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/191.png)}
+.svtid_192{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/192.png)}
+.svtid_193{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/193.png)}
+.svtid_194{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/194.png)}
+.svtid_195{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/195.png)}
+.svtid_196{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/196.png)}
+.svtid_197{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/197.png)}
+.svtid_198{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/198.png)}
+.svtid_199{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/199.png)}
+.svtid_200{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/200.png)}
+.svtid_201{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/201.png)}
+.svtid_202{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/202.png)}
+.svtid_203{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/203.png)}
+.svtid_204{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/204.png)}
+.svtid_205{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/205.png)}
+.svtid_206{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/206.png)}
+.svtid_207{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/207.png)}
+.svtid_208{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/208.png)}
+.svtid_209{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/209.png)}
+.svtid_210{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/210.png)}
+.svtid_211{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/211.png)}
+.svtid_212{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/212.png)}
+.svtid_213{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/213.png)}
+.svtid_214{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/214.png)}
+.svtid_215{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/215.png)}
+.svtid_216{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/216.png)}
+.svtid_217{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/217.png)}
+.svtid_218{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/218.png)}
+.svtid_219{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/219.png)}
+.svtid_220{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/220.png)}
+.svtid_221{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/221.png)}
+.svtid_222{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/222.png)}
+.svtid_223{background: url(http://aozakiaoko.github.io/fgo/img/svtid_by_id/223.png)}
