@@ -58,5 +58,5 @@ td {
 
 .categories_all td:hover {
     text-shadow: 3px 3px 8px #BF7F00, -3px -3px 8px #BF7F00;
-    size: 24px;   
+    font-size: 24px;   
 }
