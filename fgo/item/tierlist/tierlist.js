@@ -36,8 +36,10 @@ $(document).ready(function(){
     $(".Explanation table td").on('click', function(){
           var col = $(this).parent().children().index($(this));
           var row = $(this).parent().parent().children().index($(this).parent());
-          //console.log('Row: ' + row + ', Column: ' + col);
+          console.log('Row: ' + row + ', Column: ' + col);
+          var cell = Number(5*row) + Number(col) + 1;
+          console.log('Cell: ' + cell);
         $(".parameters_display_explanation").empty()
-        .append($('.parameters_explanation > .' + $(this).firstChild).html());
+        .append($('.parameters_explanation > td:nth-child(' + cell + ')').html());
     }); 
 });
