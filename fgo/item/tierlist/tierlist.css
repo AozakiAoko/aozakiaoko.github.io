@@ -60,3 +60,7 @@ td {
     text-shadow: 3px 3px 8px #BF7F00, -3px -3px 8px #BF7F00;
     font-size: 24px;   
 }
+
+.tips div{
+     visibility: inherit;
+}
